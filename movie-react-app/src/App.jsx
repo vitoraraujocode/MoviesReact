@@ -1,13 +1,13 @@
 import "./App.css";
-const Card = () => {
-  return <h2>Card Component</h2>;
+const Card = ({ title }) => {
+  return <h2>{title}</h2>;
 };
 const App = () => {
   return (
     <div>
       <h2>Hello World</h2>
-      <Card />
-      <Card />
+      <Card title="Star Wars" />
+      <Card title="Avatar" />
     </div>
   );
 };
