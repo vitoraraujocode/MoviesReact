@@ -1,6 +1,6 @@
 import "./App.css";
-
-function App() {}
-const App1 = () => {};
+const App = () => {
+  return <h2>Hello World</h2>;
+};
 
 export default App;
