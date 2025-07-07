@@ -1,11 +1,14 @@
 import "./App.css";
 const Card = ({ title }) => {
-  return <h2>{title}</h2>;
+  return (
+    <div className="card">
+      <h2>{title}</h2>
+    </div>
+  );
 };
 const App = () => {
   return (
-    <div>
-      <h2>Hello World</h2>
+    <div className="card-container">
       <Card title="Star Wars" />
       <Card title="Avatar" />
     </div>
